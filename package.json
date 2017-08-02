@@ -1,6 +1,6 @@
 {
   "name": "spreadem",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "A simple package that uses spread operator to return a new copy of the object or array passed to the function.",
   "main": "index.js",
   "scripts": {
