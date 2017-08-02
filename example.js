@@ -1,10 +1,10 @@
 "use strict";
 exports.__esModule = true;
-var spreadem_1 = require("spreadem");
+var index_1 = require("spreadem");
 var object = {
     greeting: "hello"
 };
-var newState = spreadem_1.spreadem(object);
+var newState = index_1.spreadem(object);
 newState.greeting = "yo";
-console.log(object);
-console.log(newState);
+console.log(object, "<< this is the original object");
+console.log(newState, "<< this is the new copy of the object, the original has not been changed");
